@@ -1,1 +1,2 @@
 # ReadMeGenerator
+I created a README generator using Inquirer, and the fs file system. I used the const questions array to create the multiple questions that will appear in terminal. In the generateMarkdown is what causes the table of contents to appear and the information along side it by using ${data. } method. in the writeToFile function i use an if and throw statement just incase of an error. The init function is what allows the questions to appear and show up in the README file that is being generated.
